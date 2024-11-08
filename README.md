@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anthdm/ggcache"
+	"github.com/animeshry/erace"
 )
 
 func main() {
 	// Create a new cache instance
-	cache := ggcache.New()
+	cache := erace.New()
 
 	// Set a key-value pair in the cache
 	key := []byte("exampleKey")
